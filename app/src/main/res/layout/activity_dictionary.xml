@@ -9,40 +9,24 @@
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".DictionaryActivity">
 
-    <ImageView
-        android:id="@+id/photo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/takepicture"
-        android:text="Take Picture"
-        android:onClick="takePicture"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/theWord"/>
-        <Button
-            android:text="Lookup"
-            android:onClick="lookup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
 
 
     <TextView
-        android:layout_width="match_parent"
+        android:text="text"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/theWord"/>
+
+
+    <ListView
+        android:id="@+id/definition_list"
+        android:entries="@array/pokepersons"
         android:layout_weight="1"
-        android:id="@+id/definition"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

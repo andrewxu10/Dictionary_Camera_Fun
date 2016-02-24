@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Dictionary</string>
+    <string-array name="pokepersons">
+        <item>Pikachu</item>
+        <item>Charizard</item>
+        <item>Mewtwo</item>
+        <item>Vulpix</item>
+        <item>Squirtle</item>
+    </string-array>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
